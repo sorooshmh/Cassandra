@@ -1,4 +1,4 @@
-# Cassandra
+# Cassandra Multi-Node
 
 ## Prerequisites:
 2 Ubuntu Servers(22.04)
