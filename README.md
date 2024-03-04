@@ -1,6 +1,6 @@
 # Cassandra
 
-##Prerequisites:
+## Prerequisites:
 2 Ubuntu 22.04
 
 ```
@@ -8,7 +8,7 @@ Node1: 192.168.56.146
 Node2: 192.168.56.148
 ```
 
-##Java Installation: You should install java on both nodes
+## Java Installation: You should install java on both nodes
 
 ```
 sudo apt update
