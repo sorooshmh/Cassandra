@@ -49,10 +49,9 @@ apt update
 apt install cassandra
 systemctl status cassandra
 nodetool status
-```
-
 root@node1:~# cqlsh
 root@node2:~# cqlsh
+```
 
 
 ## Configuring the Firewall to Allow Cassandra Traffic
