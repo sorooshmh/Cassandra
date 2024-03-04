@@ -56,15 +56,17 @@ root@node2:~# cqlsh
 
 ## Configuring the Firewall to Allow Cassandra Traffic
 
-ufw enable
-
 **On node1**
+
 ```
+ufw enable
 sudo ufw allow from 192.168.56.148 to 192.168.56.146 proto tcp port 7000,9042
 ```
 
 **On node2**
+
 ```
+ufw enable
 sudo ufw allow from 192.168.56.146 to 192.168.56.148 proto tcp port 7000,9042
 ```
 **Check ufw open Ports**
